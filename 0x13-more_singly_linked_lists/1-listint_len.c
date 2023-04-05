@@ -1,22 +1,18 @@
-#include <stdio.h>
 #include "lists.h"
 #include <stddef.h>
 
 /**
-* print_listint - prints a singly linked list
+* listint_len -  returns the number of elements in a linked listint_t list
 * @h: pointer to head of singly linked list
 *
 * Return: Number of elements in list
 */
-size_t print_listint(const listint_t *h)
+size_t listint_len(const listint_t *h)
 {
-int counter = 0;
+int range = 0;
 
-while (h != NULL)
-{
-printf("%i\n", h->n);
-h = h->next;
-counter +=1;
-}
-return (counter);
+while (h != 0)
+h = h->next, count +=1;
+
+return (count);
 }
