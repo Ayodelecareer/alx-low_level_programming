@@ -60,7 +60,7 @@ free(bck);
 }
 else
 {
-lstst->next = bckckck;
+bckck->next = bckckck;
 free(bck);
 }
 return (1);
