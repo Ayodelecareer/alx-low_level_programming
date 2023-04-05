@@ -45,7 +45,7 @@ return (1);
 if (index > len - 1)
 return (-1);
 
-ilst = *head;
+bck = *head;
 while (count < index && index != 0)
 {
 bckck = bck;
