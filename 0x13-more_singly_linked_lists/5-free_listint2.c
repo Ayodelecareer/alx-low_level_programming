@@ -16,7 +16,7 @@ if (head)
 while (*head != NULL)
 {
 bck = *head;
-*head = bck->link;
+*head = bck->next;
 free(bck);
 }
 }
