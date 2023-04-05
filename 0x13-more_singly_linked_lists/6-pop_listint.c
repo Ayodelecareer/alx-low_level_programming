@@ -16,7 +16,7 @@ int n;
 if (head == NULL || bck == NULL)
 return (0);
 
-bckck = bck->link;
+bckck = bck->next;
 n = bck->n;
 free(bck);
 *head = bckck;
