@@ -16,7 +16,7 @@ while (h != NULL)
 {
 printf("%i\n", h->n);
 h = h->next;
-count ++;
+count++;
 }
 return (count);
 }
