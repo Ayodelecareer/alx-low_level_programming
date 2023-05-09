@@ -307,3 +307,4 @@ if (closecheck == -1)
 dprintf(STDERR_FILENO, "Error Closing File\n"), exit(98);
 
 return (0);
+}
