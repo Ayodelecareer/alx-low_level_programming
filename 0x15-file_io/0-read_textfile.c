@@ -42,6 +42,6 @@ if (checkin == -1)
 return (free(c), 0);
 
 free(c);
-close(fd);
+close(wd);
 return (checkin);
 }
